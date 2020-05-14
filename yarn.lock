@@ -1289,6 +1289,15 @@
   dependencies:
     "@typescript-eslint/experimental-utils" "^2.19.2"
 
+"@nrwl/express@^9.2.4":
+  version "9.2.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/express/-/express-9.2.4.tgz#6ec9af7de4ca991b7281394c45ac17ed3af1fd6e"
+  integrity sha512-9mNMPEiaZXFa+wRBl8D5jBrBGqWVmP9IEFiETPdKoL89IeUAG+W+F39Y3wNOzNnyDXd+K4X3CGTnhmchqaoEkA==
+  dependencies:
+    "@angular-devkit/schematics" "~9.1.0"
+    "@nrwl/jest" "9.2.4"
+    "@nrwl/node" "9.2.4"
+
 "@nrwl/jest@9.2.4":
   version "9.2.4"
   resolved "https://registry.yarnpkg.com/@nrwl/jest/-/jest-9.2.4.tgz#fed43ef87ce768c9a13d0feb52f992c1dfa8b849"
@@ -1304,6 +1313,30 @@
   integrity sha512-21OeVEZfj0EoWvAz1hK9PZMYukHXNYE+fICPXzGLX393AmZoRPwPyEte95Q2QQdNEUxqEdTD1QG7ICUXZVNUMA==
   dependencies:
     "@angular-devkit/architect" "~0.901.0"
+
+"@nrwl/node@9.2.4":
+  version "9.2.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/node/-/node-9.2.4.tgz#047380c9d854b714d0551bdec3f5cd7a4b5c6161"
+  integrity sha512-f+G+2HvJTewSSphoSY6QYCrTaE2ELXJw0hqdDXiy2FXHmHkSyU1/Ckspzu+Z7BBdqsFsNiTF1Xou8dbWJG3swA==
+  dependencies:
+    "@angular-devkit/architect" "~0.901.0"
+    "@angular-devkit/build-webpack" "~0.901.0"
+    "@angular-devkit/core" "~9.1.0"
+    "@angular-devkit/schematics" "~9.1.0"
+    "@nrwl/jest" "9.2.4"
+    "@nrwl/linter" "9.2.4"
+    circular-dependency-plugin "5.2.0"
+    copy-webpack-plugin "5.1.1"
+    fork-ts-checker-webpack-plugin "^3.1.1"
+    license-webpack-plugin "2.1.2"
+    source-map-support "0.5.12"
+    tree-kill "1.2.2"
+    ts-loader "5.4.5"
+    tsconfig-paths-webpack-plugin "3.2.0"
+    webpack "4.42.0"
+    webpack-dev-server "3.9.0"
+    webpack-merge "4.2.1"
+    webpack-node-externals "1.7.2"
 
 "@nrwl/react@9.2.4":
   version "9.2.4"
@@ -10104,6 +10137,14 @@ source-map-resolve@^0.5.0:
     resolve-url "^0.2.1"
     source-map-url "^0.4.0"
     urix "^0.1.0"
+
+source-map-support@0.5.12:
+  version "0.5.12"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.12.tgz#b4f3b10d51857a5af0138d3ce8003b201613d599"
+  integrity sha512-4h2Pbvyy15EE02G+JOZpUCmqWJuqrs+sEkzewTm++BPi7Hvn/HwcqLAcNxYAyI0x13CpPPn+kMjl+hplXMHITQ==
+  dependencies:
+    buffer-from "^1.0.0"
+    source-map "^0.6.0"
 
 source-map-support@0.5.16:
   version "0.5.16"
